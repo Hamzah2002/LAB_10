@@ -7,8 +7,8 @@ public class testSelectionSort {
 
     @Test
     public void testPositive() {
-        int[] arr = {8, 9, 7, 10, 2};
-        int[] sortedArr = {2, 7, 8, 9, 10};
+        int[] arr = {9, 8, 7, 10, 2};
+        int[] sortedArr = {2, 7, 9, 8, 10};
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
@@ -18,8 +18,8 @@ public class testSelectionSort {
     
     @Test
     public void testNegative() {
-        int[] arr = {-3, -1, -4, -2, -5};
-        int[] sortedArr = {-5, -4, -3, -2, -1};
+        int[] arr = {-1, -3, -4, -2, -5};
+        int[] sortedArr = {-5, -4, -1, -2, -3};
 
         SelectionSort sorter = new SelectionSort();
         arr = sorter.basicSelectionSort(arr);
